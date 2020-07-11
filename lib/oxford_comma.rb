@@ -6,7 +6,7 @@ if array.length == 2
   return array.join(" and ")
  end
 if array.length > 2
-  array.join(", ")
+  return array.join(", ")
   array.insert(-2, " and ")
  end
 end
