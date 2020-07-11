@@ -4,6 +4,6 @@ if array.length == 2
  end
 if array.length > 2
   array.join(", ")
-  array.insert(-2, " and ")
+  array.insert(-1, " and ")
  end
 end
